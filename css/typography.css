@@ -8,24 +8,52 @@ Sidebar heading:    1.5em Helvetica, Trebuchet MS, Arial, sans-serif;
 
 Notes:  disminuyendo el encabezado en 0.4em con cada nivel de encabezado subsiguiente
 -------------------------------------------------------------------*/
+html{
+  font-size: 16px;
+}
 
 @font-face {
-    font-family: "Roboto";
-    src: url(/path/to/Roboto-Regular.woff2) format("woff2"),
-      url(/path/to/Roboto-Regular.woff) format("woff");
-  }
-  
-  .titulo_blanco {
-    font-family: Roboto;
-    font-size: 18px;
-  }
-  
-  .subtitulo_grisoscuro {
-    font-family: Roboto;
-    font-size: 16px;
-  }
-  
-  .parrafo_grisoscuro {
-    font-family: Roboto;
-    font-size: 14px;
-  }
+  font-family: "Roboto";
+  src: 
+    url(../font/) format("woff2"),
+    url(../font/) format("woff");
+}
+
+/* VARIABLES de tipografía */
+:root{
+  --fontBase: "Roboto";
+  --fontSizeBase: 1rem;
+  --fontSizeTitulo: 1.125rem;
+  --fontSizeparrafo: .875rem;
+}
+/* ********************** */
+
+.titulo_grisoscuro {
+  font-family: var(--fontBase);
+  font-size: var(--fontSizeTitulo);
+  color: var(--grey-dark);
+}
+
+.titulo_blanco {
+  font-family: var(--fontBase);
+  font-size: var(--fontSizeTitulo);
+  color: var(--white);
+}
+
+.subtitulo_grisoscuro {
+  font-family: var(--fontBase);
+  font-size: var(--fontSizeBase);
+  color: var(--grey-dark);
+}
+
+.parrafo_naranja {
+  font-family: var(--fontBase);
+  font-size: var(--fontSizeparrafo);
+  color: var(--orange);
+}
+
+.parrafo_grisoscuro {
+  font-family: var(--fontBase);
+  font-size: var(--fontSizeparrafo);
+  color: var(--grey-dark);
+}

@@ -23,12 +23,40 @@ a (visited):    #5999de (light blue)
 a (active): #cc0000 (pink)
 -------------------------------------------------------------------*/
 
+/* VARIABLES colores */
 :root {
-    --grey-dark: #7c7b7b;
-    --grey-medium: #b0b0b0;
-    --grey-light: #d9d9d9;
-    --orange: #f29f05;
-    --orange-light: #f2b705;
-    --yellow: #f2cb05;
-    --yellow-light: #f2e205;
-  }
+  --orange: #f29f05;
+  --orange-light: #f2b705;
+  --yellow: #f2cb05;
+  --yellow-light: #f2e205;
+  --grey-dark: #7c7b7b;
+  --grey-medium: #b0b0b0;
+  --grey-light: #d9d9d9;
+
+  /* basicos */
+  --white: rgb(244, 244, 244);
+  --black: rgb(40, 40, 40);
+}
+
+/* ********************** */
+
+.titulo_grisoscuro {
+  color: var(--grey-dark);
+}
+
+.titulo_blanco {
+  color: var(--white);
+}
+
+.subtitulo_grisoscuro {
+  color: var(--grey-dark);
+}
+
+.parrafo_naranja {
+  color: var(--orange);
+}
+
+.parrafo_grisoscuro {
+  color: var(--grey-dark);
+}
+

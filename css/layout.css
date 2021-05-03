@@ -2,20 +2,28 @@
 [Layout]
 
 * body
-    + Header / #header
-    + Main / #main
-        - Left column / #leftcolumn
-        - Right column / #rightcolumn
-        - Sidebar / #sidebar
-            - RSS / #rss
-            - Search / #search
-            - Boxes / .box
-            - Sideblog / #sideblog
-    + Footer / #footer
+    + Header / header
+        - navegación de flechas / .navegacion
+            - flecha atras / .navegacion__flechaAtras
+        - section centre / .centro
+            - Titulo de la página / .centro__titulo
+            - Linea de seguimiento / .centro__linea
 
-Navigation    #navbar
-Advertisements    .ads
-Content header    h2
+    + Main / main
+        - section galeria / .galeria (B)
+            - titulo de la galeria / .galeria__titulo (E)
+            - conjunto de imágenes / .galeria__imagenes (E)
+        - article descripción / .descripcion (B)
+            - titulo de la descripción / .descripcion__titulo (E)
+            - zona gris del parrafo de la descripción / .descripcion__parrafo (E)
+        - article ayuda visual con iconos / .descripcionIconos (B)
+            - explicación del alquiler / .descripcionIconos__alquiler (E)
+                - icono / .descriponIconos__alquiler__icono (E)
+                - titulo del icono / .descriponIconos__alquiler__titulo (E)
+
+    + Footer / footer
+        - boton que ocupa todo el ancho posible / .botonSiguiente
+
 -------------------------------------------------------------------*/
 
 
