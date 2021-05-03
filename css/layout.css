@@ -1,0 +1,21 @@
+/*------------------------------------------------------------------
+[Layout]
+
+* body
+    + Header / #header
+    + Main / #main
+        - Left column / #leftcolumn
+        - Right column / #rightcolumn
+        - Sidebar / #sidebar
+            - RSS / #rss
+            - Search / #search
+            - Boxes / .box
+            - Sideblog / #sideblog
+    + Footer / #footer
+
+Navigation    #navbar
+Advertisements    .ads
+Content header    h2
+-------------------------------------------------------------------*/
+
+

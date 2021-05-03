@@ -1,0 +1,34 @@
+/*------------------------------------------------------------------
+# [Color codes]
+
+# Dark grey (text): #333333
+# Dark Blue (headings, links) #000066
+# Mid Blue (header) #333399
+# Light blue (top navigation) #CCCCFF
+# Mid grey: #666666
+# */
+
+
+/*------------------------------------------------------------------
+[Color codes]
+
+Background: #ffffff (white)
+Content:    #1e1e1e (light black)
+Header h1:  #9caa3b (green)
+Header h2:  #ee4117 (red)
+Footer:     #b5cede (dark black)
+
+a (standard):   #0040b6 (dark blue)
+a (visited):    #5999de (light blue)
+a (active): #cc0000 (pink)
+-------------------------------------------------------------------*/
+
+:root {
+    --grey-dark: #7c7b7b;
+    --grey-medium: #b0b0b0;
+    --grey-light: #d9d9d9;
+    --orange: #f29f05;
+    --orange-light: #f2b705;
+    --yellow: #f2cb05;
+    --yellow-light: #f2e205;
+  }

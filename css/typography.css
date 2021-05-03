@@ -1,0 +1,31 @@
+/*------------------------------------------------------------------
+[Typography]
+
+Body copy:      1.2em/1.6em Verdana, Helvetica, Arial, Geneva, sans-serif;
+Headers:        2.7em/1.3em Helvetica, Arial, "Lucida Sans Unicode", Verdana, sans-serif;
+Input, textarea:    1.1em Helvetica, Verdana, Geneva, Arial, sans-serif;
+Sidebar heading:    1.5em Helvetica, Trebuchet MS, Arial, sans-serif;
+
+Notes:  disminuyendo el encabezado en 0.4em con cada nivel de encabezado subsiguiente
+-------------------------------------------------------------------*/
+
+@font-face {
+    font-family: "Roboto";
+    src: url(/path/to/Roboto-Regular.woff2) format("woff2"),
+      url(/path/to/Roboto-Regular.woff) format("woff");
+  }
+  
+  .titulo_blanco {
+    font-family: Roboto;
+    font-size: 18px;
+  }
+  
+  .subtitulo_grisoscuro {
+    font-family: Roboto;
+    font-size: 16px;
+  }
+  
+  .parrafo_grisoscuro {
+    font-family: Roboto;
+    font-size: 14px;
+  }
