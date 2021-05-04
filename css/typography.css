@@ -15,8 +15,8 @@ html{
 @font-face {
   font-family: "Roboto";
   src: 
-    url(../font/) format("woff2"),
-    url(../font/) format("woff");
+    url(../font/roboto-regular.woff2) format("woff2"),
+    url(../font/roboto-regular.woff) format("woff");
 }
 
 /* VARIABLES de tipografía */
@@ -31,29 +31,24 @@ html{
 .titulo_grisoscuro {
   font-family: var(--fontBase);
   font-size: var(--fontSizeTitulo);
-  color: var(--grey-dark);
 }
 
 .titulo_blanco {
   font-family: var(--fontBase);
   font-size: var(--fontSizeTitulo);
-  color: var(--white);
 }
 
 .subtitulo_grisoscuro {
   font-family: var(--fontBase);
   font-size: var(--fontSizeBase);
-  color: var(--grey-dark);
 }
 
 .parrafo_naranja {
   font-family: var(--fontBase);
   font-size: var(--fontSizeparrafo);
-  color: var(--orange);
 }
 
 .parrafo_grisoscuro {
   font-family: var(--fontBase);
   font-size: var(--fontSizeparrafo);
-  color: var(--grey-dark);
 }

@@ -6,8 +6,10 @@ Version:    1.0
 Last change:    03/05/2021
 Created by:    Toni Ferrà
 -------------------------------------------------------------------*/
+/* Estilos RESET */
 @import "./css/normalize.css";
 @import "./css/reset.css";
+/* Estilos BASE */
 @import "./css/layout.css";
 @import "./css/color.css";
 @import "./css/typography.css";
