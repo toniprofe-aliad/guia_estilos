@@ -31,6 +31,12 @@
     --paddingGeneral: 20px;
 }
 
+.contenido{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 100px;
+}
 
 header{
     height: var(--heightHeaderFooter);
@@ -40,15 +46,12 @@ main{
     border-top-left-radius: var(--bordeCurvo);
     border-top-right-radius: var(--bordeCurvo);
     padding: var(--paddingGeneral);
-    min-height: calc(100vh - (var(--heightHeaderFooter) * 2) );
 }
 footer{
     background-color: var(--colorWhite);
-    position: fixed;
-    left: 0;
+    position: sticky;
     bottom: 0;
-    z-index: 1;
-    width: 100%;
-    height: var(--heightHeaderFooter);
-    border: 1px solid red;
+    left: 0;
+
 }
+
