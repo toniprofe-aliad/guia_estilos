@@ -32,23 +32,32 @@
 }
 
 
+/* Padre después de BODY */
+.contenido{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header,footer{
+    flex-basis: 100px;
+}
 header{
-    height: var(--heightHeaderFooter);
+
 }
 main{
     background-color: var(--colorWhite);
     border-top-left-radius: var(--bordeCurvo);
     border-top-right-radius: var(--bordeCurvo);
     padding: var(--paddingGeneral);
-    min-height: calc(100vh - (var(--heightHeaderFooter) * 2) );
+    flex-grow: 1;
+
 }
+
 footer{
     background-color: var(--colorWhite);
-    position: fixed;
-    left: 0;
+    position: sticky;
     bottom: 0;
-    z-index: 1;
+    left: 0;
     width: 100%;
-    height: var(--heightHeaderFooter);
-    border: 1px solid red;
+    padding: 20px;
 }
